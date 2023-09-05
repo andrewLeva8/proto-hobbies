@@ -26,7 +26,8 @@ class Database:
         #TODO
         pass
 
-    def deleteHobby(self,protonName: str):
+    def deleteHobby(self,hobbyName: str):
         #TODO
         pass
 
+                                                                   
