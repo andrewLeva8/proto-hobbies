@@ -3,7 +3,11 @@ from Model.proton import Proton
 
 class Database:
     def __init__(self):
+        #Note that this is a list of Protons objects, 
+        #not protons names
         self.protons = []
+        #Note that this is a list of Hobbies objects, 
+        #not hobbies titles
         self.hobbies = []
 
     def addHobby(self,hobby: Hobby):
