@@ -24,12 +24,17 @@ def addProton(protonName: str, protonAge: int, protonTrack: str):
     pass
 
 @app.route("/hobbies",methods=["POST"])
-def addHobby(hobbyTitle: str, imagePAth: str):
+def addHobby(hobbyTitle: str, imagePath: str):
     #TODO
     pass
 
 @app.route("/hobbies/<hobbyTitle>/<protonName>")
 def matchProtoHobby(hobbyTitle: str,protonName: str):
+    #TODO
+    pass
+
+@app.route("/hobbies/<hobbyTitle>/<protonName>",methods=["DELETE"])
+def unmatchProtoHobby(hobbyTitle: str,protonName: str):
     #TODO
     pass
 
