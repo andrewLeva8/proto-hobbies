@@ -28,7 +28,7 @@ def addHobby():
     #TODO
     pass
 
-@app.route("/hobbies/<hobbyTitle>/<protonName>",methods="POST")
+@app.route("/hobbies/<hobbyTitle>/<protonName>",methods=["POST"])
 def matchProtoHobby(hobbyTitle: str):
     #TODO
     pass
