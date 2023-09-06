@@ -29,27 +29,27 @@ def addHobby():
     pass
 
 @app.route("/hobbies/<hobbyTitle>/<protonName>",methods="POST")
-def matchProtoHobby():
+def matchProtoHobby(hobbyTitle: str):
     #TODO
     pass
 
 @app.route("/hobbies/<hobbyTitle>/<protonName>",methods=["DELETE"])
-def unmatchProtoHobby():
+def unmatchProtoHobby(hobbyTitle: str, protonName: str):
     #TODO
     pass
 
 #Views the hobby title, image and protons who like it
 @app.route("/hobbies/<hobbyTitle>")
-def viewHobby():
+def viewHobby(hobbyTitle: str):
     #TODO
     pass
 
 @app.route("/hobbies/<hobbyTitle>",methods=["DELETE"])
-def deleteHobby():
+def deleteHobby(hobbyTitle: str):
     #TODO
     pass
 
 @app.route("/protons/<protonName>",methods=["DELETE"])
-def deleteProton():
+def deleteProton(protonName: str):
     #TODO
     pass
