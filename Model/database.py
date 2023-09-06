@@ -1,6 +1,5 @@
 from Model.hobby import Hobby
 from Model.proton import Proton
-
 class Database:
     def __init__(self):
         #Note that this is a list of Protons objects, 
